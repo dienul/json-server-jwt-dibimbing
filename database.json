@@ -1,0 +1,53 @@
+{
+  "contacts": [
+    {
+      "nama": "Melissa Sabana",
+      "nomor": "082125638888",
+      "info": "Temen Sekolah",
+      "alamat": "Cirebon",
+      "id": 5
+    },
+    {
+      "nama": "Mira",
+      "alamat": "Bandung",
+      "nomor": "123456",
+      "info": "Temen SMP",
+      "id": 8
+    },
+    {
+      "nama": "Agus",
+      "alamat": "magelang",
+      "nomor": "0354 99218",
+      "info": "Temen SMA",
+      "id": 9
+    },
+    {
+      "nama": "Yonda",
+      "alamat": "Bogor",
+      "nomor": "0813335413",
+      "info": "Temen Dibimbing",
+      "id": 10
+    },
+    {
+      "nama": "Udin",
+      "alamat": "Kediri",
+      "nomor": "082128807777",
+      "info": "Temen Kantor",
+      "id": 11
+    },
+    {
+      "nama": "Andi",
+      "alamat": "Lampung",
+      "nomor": "0451213139",
+      "info": "Tetangga",
+      "id": 12
+    },
+    {
+      "nama": "Didit Pro Player",
+      "nomor": "08108513026",
+      "info": "Temen Mabar",
+      "alamat": "Surabaya",
+      "id": 13
+    }
+  ]
+}
