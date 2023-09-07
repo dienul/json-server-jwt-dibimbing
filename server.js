@@ -141,8 +141,8 @@ server.post("/auth/login", (req, res) => {
     res.status(200).json({ access_token });
 });
 
-// add contact
-server.post("/contacts", (req, res, next) => {
+// add note
+server.post("/notes", (req, res, next) => {
     console.log(req.headers);
     if (
         req.headers.authorization === undefined ||
@@ -173,8 +173,8 @@ server.post("/contacts", (req, res, next) => {
     }
 });
 
-// delete contact
-server.delete("/contacts/:id", (req, res, next) => {
+// delete note
+server.delete("/notes/:id", (req, res, next) => {
     if (
         req.headers.authorization === undefined ||
         req.headers.authorization.split(" ")[0] !== "Bearer"
@@ -204,7 +204,7 @@ server.delete("/contacts/:id", (req, res, next) => {
     }
 });
 
-// update contact
+// update note
 server.put("/contacts/:id", (req, res, next) => {
     if (
         req.headers.authorization === undefined ||
